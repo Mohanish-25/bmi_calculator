@@ -91,7 +91,6 @@ class _InputPageState extends State<InputPage> {
             ),
             Expanded(
               child: ReusableCard(
-                cardChild: Text('Hello'),
                 colour: activeCardColor,
               ),
             ),
@@ -100,13 +99,11 @@ class _InputPageState extends State<InputPage> {
                 children: [
                   Expanded(
                     child: ReusableCard(
-                      cardChild: Text('Hello'),
                       colour: activeCardColor,
                     ),
                   ),
                   Expanded(
                     child: ReusableCard(
-                      cardChild: Text('Hello'),
                       colour: activeCardColor,
                     ),
                   ),
